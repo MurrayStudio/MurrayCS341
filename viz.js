@@ -8,6 +8,8 @@
  *
  * @author: Tanya L. Crenshaw
  * @since: Jan 6, 2015
+ * 
+ * @author: Shamus Murray
  */
 
 google.load('visualization', '1', {packages: ['corechart']});
@@ -47,6 +49,10 @@ function drawChart() {
     var options = {
         width: 1000,
         height: 563,
+        animation: {
+            "startup" : true,
+            "duration" : 500
+        },
 	title: 'Session Hours Provided by University of Portland Librarians in 2014',
         hAxis: {
             title: 'Month',
