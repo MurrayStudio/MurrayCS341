@@ -47,8 +47,8 @@ function drawChart() {
     // width, height, title, horizontal axis, vertical axis.  Finally
     // turn off the legend.
     var options = {
-        width: 1000,
-        height: 563,
+        width: 700,
+        height: 400,
         animation: {
             "startup" : true,
             "duration" : 500
