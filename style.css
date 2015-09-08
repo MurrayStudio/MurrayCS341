@@ -29,3 +29,12 @@ div#header {
 	padding: 30px;
 	color: #666
 }
+
+#about {
+	opacity: 0;
+	transition: all 2s linear;	
+}
+
+div#about.show {
+    opacity: 1;
+}
