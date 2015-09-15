@@ -6,7 +6,7 @@
  */
 
 var toggle = function() {
-
+    
     console.log('About!');
     
     var text = document.getElementById('about');
