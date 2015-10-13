@@ -12,6 +12,8 @@
  * @author: Shamus Murray
  */
 
+var librs = librs || {};
+
 google.load('visualization', '1', {
     packages: ['corechart']
 });
